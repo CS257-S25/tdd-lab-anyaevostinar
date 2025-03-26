@@ -1,3 +1,3 @@
-'''
-A file for the production code
-'''
+def reverse_word(word):
+    '''Function to reverse a given word'''
+    return word[::-1]
