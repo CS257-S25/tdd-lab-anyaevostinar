@@ -36,7 +36,7 @@ jobs:
       with:
         test-name: Style checker - tests
         setup-command: python -m pip install --upgrade pip; pip install pylint
-        command: pylint --disable=import-error Tests/production.py
+        command: pylint --disable=import-error Tests/test_production.py
         timeout: 10
     - name: Style checker - production
       id: style-checker-production
